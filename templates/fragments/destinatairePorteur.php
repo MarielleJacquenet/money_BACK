@@ -7,7 +7,7 @@
 
         // récupérer le pseudo et l'email du destinataire
         $nomDestinataire = $this->get("porteur")->getLibelle();
-        $emailDestinataire = "mjacquenet@mywebecom.ovh"; //$this->get("porteur")->get("email") si vraie boite mail;
+        $emailDestinataire = "---@---"; //$this->get("porteur")->get("email") si vraie boite mail;
 
         // destinataire
         $destinataire = '"'.$nomDestinataire.'"'."<$emailDestinataire>";
