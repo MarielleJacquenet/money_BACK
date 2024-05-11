@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-start {
+    align-items: start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end ;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large-30 {
+    width: 28%;
+}
+
+.large-50 {
+    width: 48%;
+}
+
+.large-70 {
+    width: 67%;
+}
+
+.large-80 {
+    width: 80%;
+}
+
+.large-100 {
+    width: 97%;
+}
+
+header {
+    background-color: #b2c0cc;
+    margin : 0;
+    padding : 10px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    margin-right: 20px;
+}
+
+.logo {
+    color:rgb(45, 3, 81);
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.it {
+    font-style: italic;
+}
+
+.maj {
+    text-transform: uppercase ;
+}
+
+.maj1::first-letter {
+    text-transform: uppercase;
+}
+
+.green {
+    color: green;
+}
+
+div, h1, h2, h3, input, table {
+    margin-top: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+h2, h3 {
+    margin-bottom: 20px;
+}
+
+body input:first-child {
+    margin-top: 0;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+input, textarea, select{
+    width: 80%;
+}
+
+header input {
+    width: auto;
+}
+
+table {
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, tr, th {
+    padding: 12px;
+    border: 2px solid black;
+}
+
+th {
+    text-align: center;
+    background-color : rgb(168, 168, 171);	
+
+}
+
+td {
+    text-align: left;
+}
+  
+   /* Alternance de couleur */
+  
+tr:nth-child(odd) {
+    background-color: #b2c0cc;
+}
+    
+tr:nth-child(even) {
+    background-color: #e8d3d3;
+}
+
+button {
+    padding : 5px;
+}   
